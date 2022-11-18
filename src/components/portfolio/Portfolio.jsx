@@ -3,7 +3,7 @@ import './portfolio.css'
 
 import IMG1 from '../../assets/portfolio.png'
 import IMG2 from '../../assets/acm.png'
-import IMG3 from '../../assets/portfolio.png'
+import IMG3 from '../../assets/rajPortfolioWeb.png'
 import IMG4 from '../../assets/portfolio2.png'
 import IMG5 from '../../assets/portfolio.png'
 import IMG6 from '../../assets/portfolio.png'
@@ -36,12 +36,12 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG3} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>MY Portfolio Website</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/RAJASHEKARGUNAGANTI/myportfolio.git" className='btn' target='_blank'>Github</a>
+            <a href="https://rajashekargunaganti.github.io/myportfolio/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
