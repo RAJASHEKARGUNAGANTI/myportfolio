@@ -40,10 +40,48 @@ header{
     position:relative;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    /* border-radius: 12rem 12rem 0 0; */
+    box-shadow : inset 0 0 0 3px var(--color-bg-variant);
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    height: 400px;
+    width: 400px;
+    padding: 1rem 1rem 1.5rem 1.5rem;
+    animation: profile_animation 8s ease-in-out infinite 0.5s;
+
+    /* background: url(../../assets/me4.png);
+    background:linear-gradient(var(--color-primary),transparent);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow : inset 0 0 0 15px var(--color-bg-variant);
+    order: 1;
+    justify-content: center;
+    width: 400px;
+    height: 420px;
+    animation: profile_animation 8s ease-in-out infinite 0.5s;
+    align-items: center;
+    margin-top: 4rem;
+    position: relative;
+    left: calc(50% - 11rem);
+    padding: 5rem 1.5rem 1.5rem 1.5rem; */
+
 }
+.me image{
+    position: relative;
+    display: none;
+}
+/*====== ANIMATION =============*/
+@keyframes profile_animation {
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
 /*=============== SCROLL DOWN ===============*/
 .scroll__down{
     position: absolute;
@@ -57,7 +95,7 @@ header{
 /*=======================MEDIA QUERIES (MEDIUM DEVICES)=======================*/
 @media screen and (max-width:1024px){
     header{
-        height: 68vh;
+        height: 90vh;
     }
 }
 

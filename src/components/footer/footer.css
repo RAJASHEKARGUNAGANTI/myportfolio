@@ -21,6 +21,7 @@ footer a{
     gap: 2rem;
     margin: 0 auto 3rem;
     color: var(--color-bg);
+    cursor: pointer;
 }
 .footer__socials{
     display: flex;
