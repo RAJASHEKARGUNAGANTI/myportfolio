@@ -104,6 +104,10 @@ header{
     header{
         height: 100%;
     }
+    .me {
+        width: 80%;
+        height: 80%;
+    }
     .header__socials,
     .scroll__down{
         display: none;
