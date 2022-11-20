@@ -1,6 +1,6 @@
 header{
     height: 100hv;
-    padding-top: 7rem;
+    padding-top: 6rem;
     overflow: hidden;
 }
 .header__container{
@@ -65,10 +65,7 @@ header{
     padding: 5rem 1.5rem 1.5rem 1.5rem; */
 
 }
-.me image{
-    position: relative;
-    display: none;
-}
+
 /*====== ANIMATION =============*/
 @keyframes profile_animation {
     0%{
@@ -104,12 +101,19 @@ header{
     header{
         height: 100%;
     }
-    .me {
-        width: 80%;
-        height: 80%;
-    }
     .header__socials,
     .scroll__down{
         display: none;
-    };
+    }
+    .me{
+        width: 17rem;
+        height: 16rem;
+        position:relative;
+        left: calc(50% - 8.5rem);
+    }
+    /* .header{
+        height: 100hv;
+        padding-top: 2rem;
+        overflow: hidden;
+    } */
 }
