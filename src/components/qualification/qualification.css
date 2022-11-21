@@ -26,7 +26,7 @@
 }
 .qualification__sections{
     display: grid;
-    grid-template-columns: 0.5fr;
+    /* grid-template-columns: 0.5fr; */
     justify-content: center;
 }
 .qualification__content{
@@ -78,8 +78,12 @@
 /*=======================MEDIA QUERIES (SMALL DEVICES)=======================*/
 @media screen and (max-width:600px){
    .qualification__container{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+   }
+   .qualification__sections{
+    margin-left: 1rem;
+    margin-right: 1rem;
    }
    .qualification__button{
     margin: auto;
