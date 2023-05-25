@@ -25,7 +25,7 @@ const Footer = () => {
         <a href="https://twitter.com/RAJASHEKARGUNA3"><AiOutlineTwitter /></a>
         <a href="https://www.linkedin.com/in/rajashekar-gunaganti-74957721b/"><AiFillLinkedin /></a>
         <a href="https://mail.google.com/mail/u/1/#inbox"><AiOutlineMail /></a>
-        <a href="https://twitter.com/RAJASHEKARGUNA3"><SiHashnode /></a>
+        <a href="https://rajashekargunaganti.hashnode.dev"><SiHashnode /></a>
 
       </div>
       <div className="footer__copyright">
