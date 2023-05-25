@@ -33,10 +33,13 @@ const About = () => {
               <small>10+ Projects</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Id eius reiciendis beatae distinctio voluptatem odit incidunt 
-            voluptates facere quaerat animi hic mollitia nobis labore, soluta, 
-            assumenda praesentium quasi quam illum.
+          <p>I have a strong affinity for Linux and greatly enjoy working with its open-source nature and robust
+             command-line interface.I possess potential across a wide range of technical skills, including programming 
+            languages such as Python, Java, and C, as well as expertise in utilizing tools and frameworks
+             such as Git, Docker, Selenium, Machine Learning and Python Flask 
+            for efficient project development and collaboration. Familiarity with database management 
+            systems, including SQL and MongoDB. Possess a strong understanding of networking protocols,
+             web development technologies (HTML/CSS, JavaScript, React).
             </p>
             <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>

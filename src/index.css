@@ -13,6 +13,7 @@
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77,181,255,0.4);
+    --color-blog:linear-gradient(to right, rgba(255,0,0,0), #4db5ff);
     --color-white:#fff;
     --color-light: rgba(255,255,255,0.6);
 
@@ -90,6 +91,10 @@ a:hover{
 .btn-primary{
     background: var(--color-primary);
     color: var(--color-bg);
+}
+.btn-blog{
+    background: var(--color-blog);
+    color: var(--color-white);
 }
 img {
     display: block;
