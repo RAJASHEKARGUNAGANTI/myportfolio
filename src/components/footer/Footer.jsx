@@ -6,6 +6,7 @@ import {AiFillGithub} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiOutlineMail} from 'react-icons/ai'
 import {SiHashnode} from 'react-icons/si'
+import {FaDocker} from 'react-icons/fa'
 
 
 const Footer = () => {
@@ -26,6 +27,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/rajashekar-gunaganti-74957721b/"><AiFillLinkedin /></a>
         <a href="https://mail.google.com/mail/u/1/#inbox"><AiOutlineMail /></a>
         <a href="https://rajashekargunaganti.hashnode.dev"><SiHashnode /></a>
+        <a href="https://hub.docker.com/u/rajashekargunaganti"><FaDocker /></a>
 
       </div>
       <div className="footer__copyright">

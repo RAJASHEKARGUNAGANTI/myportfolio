@@ -6,7 +6,7 @@ import IMG2 from '../../assets/acm.png'
 import IMG3 from '../../assets/rajPortfolioWeb.png'
 import IMG4 from '../../assets/crop.jpg'
 import IMG5 from '../../assets/rainfall.jpg'
-import IMG6 from '../../assets/portfolio.png'
+import IMG6 from '../../assets/ZakopinWibsite.png'
 
 const Portfolio = () => {
   return (
@@ -62,6 +62,16 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/RAJASHEKARGUNAGANTI/Machine-Learing-models.git" className='btn' target='_blank'>Github</a>
             <a href="https://github.com/RAJASHEKARGUNAGANTI/Machine-Learing-models.git" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Zakopin Website</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/RAJASHEKARGUNAGANTI/Zakopin_Main_Website.git" className='btn' target='_blank'>Github</a>
+            <a href="https://rajashekargunaganti.github.io/Zakopin_Main_Website" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         
