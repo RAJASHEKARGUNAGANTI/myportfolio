@@ -7,6 +7,7 @@ import IMG3 from '../../assets/rajPortfolioWeb.png'
 import IMG4 from '../../assets/crop.jpg'
 import IMG5 from '../../assets/rainfall.jpg'
 import IMG6 from '../../assets/ZakopinWibsite.png'
+import IMG7 from '../../assets/blogxl.png'
 
 const Portfolio = () => {
   return (
@@ -25,6 +26,36 @@ const Portfolio = () => {
           </div>
         </article>
         <article className='portfolio__item'>
+        <div className="portfolio__item-image">
+        <img src={IMG7} alt="" />
+        </div>
+        <h3>BlogXL (Blog wrinting website )</h3>
+        <div className="portfolio__item-cta">
+        <a href="https://github.com/RAJASHEKARGUNAGANTI/BlogXL.git" className='btn' target='_blank'>Github</a>
+        <a href="https://blogxl.vercel.app" className='btn btn-primary' target='_blank'>Live Demo</a>
+        </div>
+        </article>
+        <article className='portfolio__item'>
+        <div className="portfolio__item-image">
+        <img src={IMG3} alt="" />
+        </div>
+        <h3>MY Portfolio Website</h3>
+        <div className="portfolio__item-cta">
+        <a href="https://github.com/RAJASHEKARGUNAGANTI/myportfolio.git" className='btn' target='_blank'>Github</a>
+        <a href="https://rajashekargunaganti.github.io/myportfolio/" className='btn btn-primary' target='_blank'>Live Demo</a>
+        </div>
+        </article>
+        <article className='portfolio__item'>
+        <div className="portfolio__item-image">
+        <img src={IMG5} alt="" />
+        </div>
+        <h3>Rainfall Pridiction (ML model)</h3>
+        <div className="portfolio__item-cta">
+        <a href="https://github.com/RAJASHEKARGUNAGANTI/Machine-Learing-models.git" className='btn' target='_blank'>Github</a>
+        <a href="https://github.com/RAJASHEKARGUNAGANTI/Machine-Learing-models.git" className='btn btn-primary' target='_blank'>Live Demo</a>
+        </div>
+        </article>
+        <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
@@ -32,36 +63,6 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/RAJASHEKARGUNAGANTI/ACMwesite.git" className='btn' target='_blank'>Github</a>
             <a href="https://acmvjit.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
-          </div>
-          <h3>MY Portfolio Website</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/RAJASHEKARGUNAGANTI/myportfolio.git" className='btn' target='_blank'>Github</a>
-            <a href="https://rajashekargunaganti.github.io/myportfolio/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>Crop Recommendation (ML model)</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/RAJASHEKARGUNAGANTI/Machine-Learing-models.git" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/RAJASHEKARGUNAGANTI/Machine-Learing-models.git" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>Rainfall Pridiction (ML model)</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/RAJASHEKARGUNAGANTI/Machine-Learing-models.git" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/RAJASHEKARGUNAGANTI/Machine-Learing-models.git" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>

@@ -36,7 +36,7 @@ const Experience = () => {
             <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon' />
             <div>
-            <h4>BootStrap</h4>
+            <h4>Tailwind CSS</h4>
             <small className='text-light'>Experience</small>
             </div>
             </article>
@@ -47,7 +47,21 @@ const Experience = () => {
             <small className='text-light'>Experience</small>
             </div>
             </article>
-          </div>
+            <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon' />
+            <div>
+            <h4>React Native</h4>
+            <small className='text-light'>Intermediate</small>
+            </div>
+            </article>
+            <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon' />
+            <div>
+            <h4>Next JS</h4>
+            <small className='text-light'>Intermediate</small>
+            </div>
+            </article>
+            </div>
         </div>
 {/* ==================== END OF FRONTEND ============================ */}
         <div className="experience__backend">
@@ -78,6 +92,20 @@ const Experience = () => {
             <BsPatchCheckFill className='experience__details-icon' />
             <div>
             <h4>Python Flask</h4>
+            <small className='text-light'>Intermediate</small>
+            </div>
+            </article>
+            <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon' />
+            <div>
+            <h4>Express</h4>
+            <small className='text-light'>Intermediate</small>
+            </div>
+            </article>
+            <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon' />
+            <div>
+            <h4>Node JS</h4>
             <small className='text-light'>Intermediate</small>
             </div>
             </article>

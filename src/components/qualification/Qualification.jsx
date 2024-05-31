@@ -123,21 +123,22 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">App Design</h3>
-                            <span className="qualifiaction__subtitle">Kotlin</span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calender-alt"></i>2022 - present
-                            </div>
+                        <h3 className="qualification__title">AI ML</h3>
+                        <span className="qualifiaction__subtitle">Github</span>
+                        <div className="qualification__calender">
+                            <i className="uil uil-calender-alt"></i>2021 - 2022
+                        </div>
                         </div>   
                     </div>
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">AI ML</h3>
+                        <h3 className="qualification__title">React</h3>
                             <span className="qualifiaction__subtitle">Github</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calender-alt"></i>2021 - 2022
+                                <i className="uil uil-calender-alt"></i>2022 - Present
                             </div>
+                            
                         </div>
 
                         <div>
@@ -147,18 +148,35 @@ const Qualification = () => {
                     </div>
                     
                     <div className="qualification__data">
+                    <div></div>
+                    <div>
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
+                    </div>
                         <div>
-                            <h3 className="qualification__title">React</h3>
-                            <span className="qualifiaction__subtitle">Github</span>
+                        <h3 className="qualification__title">App Design</h3>
+                            <span className="qualifiaction__subtitle">React Native</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calender-alt"></i>2022 - Present
+                                <i className="uil uil-calender-alt"></i>2023 - present
                             </div>
+                            
                         </div>
 
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
+                    </div>
+                    <div className="qualification__data">
+                    <div>
+                    <h3 className="qualification__title">Next JS</h3>
+                    <span className="qualifiaction__subtitle">Github</span>
+                    <div className="qualification__calender">
+                        <i className="uil uil-calender-alt"></i>2024 - Present
+                    </div>
+                </div>
+                    <div>
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
+                    </div>
+                        <div></div>
+
                     </div>
                    
                 </div>
